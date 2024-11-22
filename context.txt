@@ -1,0 +1,10 @@
+I found a dataset on kaggle of gun violence in the US in 2024 (from janurary to october).
+I wanted to use this to explore number of shootings in each state and the relationships.
+The analysis begins with data preprocessing, including date parsing and categorical variable conversion. Several visualizations were created to understand patterns in the data:
+A time series analysis showing daily incidents with a 7-day rolling average, which helps identify temporal trends in shooting incidents.
+Monthly statistics comparing victims and suspects (killed, injured, and arrested), revealing seasonal patterns.
+State-level analysis through bar charts and choropleth maps showing that some states (particularly larger ones) have higher absolute numbers of incidents. The analysis includes both raw incident counts and victim statistics, with three different choropleth maps showing:
+Total number of shooting incidents per state
+Total number of victims per state
+Average victims per incident by state
+This visualization-heavy approach helps identify geographical hotspots and temporal patterns in gun violence across the United States. The data suggests significant variation between states, both in terms of raw numbers and per-incident severity, though it's important to note that this should be contextualized with population data for more meaningful comparisons.
